@@ -337,3 +337,82 @@ header{
     color: var(--black);
     text-decoration: underline;
 }
+/* contact */
+.contact{
+    background: url(../images/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contact .overlay{
+    background-color: #00000074;
+    padding: 64px;
+    border-radius: 15px;
+}
+.contact h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #fff;
+}
+.contact p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 15px 0;
+}
+form input{
+    background: #fff;
+    color: #0D1321;
+    padding: 20px;
+    border-radius: 10px;
+    width: 548px;
+    font-size: 16px;
+}
+form{
+    margin-top: 25px;
+}
+form button{
+    font-weight: 600;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 10px;
+    color: var(--black);
+    background: #fff;
+    border: 1px solid var(--black);
+    padding: 16px 20px;
+    transition: all linear .3s;
+}
+form button:hover{
+    color: #fff;
+    background: var(--black);
+    border: 1px solid #fff;
+    transition: all linear .3s;
+}
+/* footer */
+footer{
+    background: #0d132110;
+    padding: 32px 0;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+}
+.footer-img{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.footer-img img{
+    width: 80%;
+}
